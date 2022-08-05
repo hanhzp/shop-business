@@ -1,7 +1,27 @@
 :root{
-    
+	--lightblue: #79f7f7;
+	--paperlike: #ffffff;
 }
 
 body{
-    
+    background-color: var(--paperlike,white);
+    color: black;
+    font-size: 100%;
+}
+
+#page-header{
+    margin: 2em;
+    padding: 1.5em;
+    border-bottom: solid 1px; 
+}
+
+/*header*/
+#page-logo{
+    float: left;
+}
+#page-title{
+    float: left;
+}
+#U-Interaction{
+    float: right;
 }
